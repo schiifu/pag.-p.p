@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #777;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0077cc;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #005fa3;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #0077cc;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+article {
+    background-color: #fafafa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+article h3 {
+    font-size: 1.5rem;
+    color: #0077cc;
+}
+
+article p {
+    font-size: 1.1rem;
+}
+
+aside {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+aside h3 {
+    font-size: 1.5rem;
+    color: #0077cc;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+aside ul li {
+    margin: 5px 0;
+}
+
+aside ul li a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    color: #005fa3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        margin-bottom: 15px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
